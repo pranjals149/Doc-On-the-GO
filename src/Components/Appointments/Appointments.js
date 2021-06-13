@@ -84,7 +84,7 @@ export default function Appointments() {
                 <Container className={classes.cardGrid} maxWidth="md">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
-                        {appointments.map((appointment) => (
+                        {appointments.length > 0 ? appointments.map((appointment) => (
                             <Grid item key={appointment.id} xs={12} sm={6} md={4}>
                                 <Card className={classes.card}>
                                     <CardContent className={classes.cardContent}>
@@ -109,7 +109,11 @@ export default function Appointments() {
                                     </CardContent>
                                 </Card>
                             </Grid>
-                        ))}
+                        )) :
+                            <div style={{ textAlign: 'center' }}>
+                                <h1>No Reports Generated yet !!</h1>
+                            </div>
+                        }
                     </Grid>
                 </Container>
             </main>

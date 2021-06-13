@@ -84,7 +84,7 @@ function Prescriptions() {
 
                 <h1 className={classes.report__heading}>Your Prescriptions</h1>
 
-                {prescriptions.map((prescription) => (
+                {prescriptions.length > 0 ? prescriptions.map((prescription) => (
                     <main className={classes.layout}>
 
                         <Paper className={classes.paper}>
@@ -126,7 +126,11 @@ function Prescriptions() {
                         </Paper>
 
                     </main>
-                ))}
+                )) :
+                    <ElseContainer>
+                        <h1>No Prescriptions received yet !!</h1>
+                    </ElseContainer>
+                }
 
             </React.Fragment>
         </div>
@@ -148,5 +152,9 @@ const InfoContainer = styled.div`
 `
 
 const NameContainer = styled.div``
+
+const ElseContainer = styled.div`
+    text-align: center;
+`
 
 export default Prescriptions

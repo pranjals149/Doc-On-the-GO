@@ -77,7 +77,7 @@ const Main = (props) => {
         <div>
           <FlipMove>
             {
-              articles.length > 0 && articles.map((article, key) => (
+              articles.length > 0 ? articles.map((article, key) => (
                 <Article key={key}>
                   <SharedActor>
                     <a>
@@ -119,7 +119,7 @@ const Main = (props) => {
                   />
 
                 </Article>
-              ))
+              )) : <h1>No Posts yet !! Be the first one to Post</h1>
             }
 
           </FlipMove>

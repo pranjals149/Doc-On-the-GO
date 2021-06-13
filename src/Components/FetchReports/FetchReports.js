@@ -82,7 +82,7 @@ function FetchReports() {
 
             <h1 className={classes.report__heading}>Your saved Reports</h1>
 
-            {reports.map((report) => (
+            {reports.length > 0 ? reports.map((report) => (
                 <main className={classes.layout}>
 
                     <Paper className={classes.paper}>
@@ -141,7 +141,11 @@ function FetchReports() {
                     </Paper>
 
                 </main>
-            ))}
+            )) :
+                <ElseContainer>
+                    <h1>No Reports Generated yet !!</h1>
+                </ElseContainer>
+            }
 
         </React.Fragment>
     )
@@ -169,5 +173,9 @@ const InfoContainer = styled.div`
 `
 
 const NameContainer = styled.div``
+
+const ElseContainer = styled.div`
+    text-align: center;
+`
 
 export default FetchReports

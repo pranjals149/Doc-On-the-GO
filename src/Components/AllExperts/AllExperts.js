@@ -76,8 +76,6 @@ function AllExperts() {
             })
     }, [])
 
-    experts.map((expert) => console.log(expert.report.first_name))
-
     return (
         <React.Fragment>
             <CssBaseline />
@@ -98,7 +96,7 @@ function AllExperts() {
             {/* End hero unit */}
             <Container maxWidth="md" component="main">
                 <Grid container spacing={5} alignItems="flex-end">
-                    {experts.map((expert) => (
+                    {experts.length > 0 ? experts.map((expert) => (
                         <Grid item key={expert.id} xs={12} sm={12} md={4}>
                             <Card>
                                 <h2 className={classes.cardHeader}>Email - {expert.report.email}</h2>
@@ -132,7 +130,11 @@ function AllExperts() {
                                 </CardActions>
                             </Card>
                         </Grid>
-                    ))}
+                    )) :
+                        <div style={{ textAlign: 'center' }}>
+                            <h1>No Reports Generated yet !!</h1>
+                        </div>
+                    }
                 </Grid>
             </Container>
         </React.Fragment>
