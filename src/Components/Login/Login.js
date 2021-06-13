@@ -18,6 +18,7 @@ import { useState } from "react";
 
 import Typewriter from 'react-simple-typewriter'
 import 'react-simple-typewriter/dist/index.css'
+import { toast } from "react-toastify";
 
 const styles = (theme) => ({
   root: {
@@ -96,6 +97,13 @@ const Login = (props) => {
       .catch(alert);
   }
 
+  const expertPress = (e) => {
+    e.preventDefault();
+
+    toast.error("This is an invite only feature")
+    return;
+  }
+
   return (
 
     <Container>
@@ -132,11 +140,12 @@ const Login = (props) => {
         </div>
 
         <div style={{ paddingTop: "10px" }}>
-          <Link to='/expertReg' style={{
-            textDecoration: "none",
-          }}>
-            <Button variant="contained" color="primary">Join now as an Expert</Button>
-          </Link>
+
+          <Button variant="contained" color="primary" style={{
+            opacity: "0.5",
+            cursor: "not-allowed"
+          }} onClick={expertPress}>Join now as an Expert</Button>
+
         </div>
 
         <div style={{ paddingTop: "10px" }}>
