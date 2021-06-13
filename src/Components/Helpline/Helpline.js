@@ -20,7 +20,7 @@ function Helpline() {
     return (
         <div>
             <Heading>
-                <span style={{ textDecoration: "line-through" }}>HELPLINES</span> <span style={{ textDecoration: "underline" }}>LIFE SAVIOURS</span>
+                <span>HELPLINES</span>
             </Heading>
 
             <SearchItem>
