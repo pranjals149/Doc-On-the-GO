@@ -1,5 +1,12 @@
 <h1 align='center'>Doc-On-the-Go</h1>
+
+## Links
+
+1. Deployed Link - [Click here](https://doconthego.netlify.app/)
+2. Video Link -
+
 ## Team Members
+
 1. Pranjal Srivastava
 2. Ramankur Goswami
 3. Shivam Purohit
@@ -10,7 +17,7 @@ Our inspiration for this project was to help people during the Coronavirus pande
 
 ## Problem statements
 
-### Pre-requisites required to run the application
+## Pre-requisites required to run the application
 
 1. **NodeJs**
 2. Working **Firebase** account
@@ -43,16 +50,15 @@ Our inspiration for this project was to help people during the Coronavirus pande
  
 ## Screenshots
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Landing%20Page.png" width = "600" height = "400"/></p>
-<p align='center'> **Landing Page** </p>
+<p align='center'> Functions </p>
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/User%20Main%20Page.png" width = "600" height = "400"/></p>
-<p align='center'> **User Main Page** </p>
-<p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Services.png" width = "600" height = "400"/></p>
-<p align='center'> **Services Offered** </p>
-<p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Symptom%20Generator.png" width = "600" height = "400"/></p>
-<p align='center'> **Symptom Generator** </p>
+<p align='center'> User Main Page </p>
+<p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Services.png" width = "600" height = "500"/></p>
+<p align='center'> Services Offered </p>
+<p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Symptom%20Generator.png" width = "600" height = "500"/></p>
+<p align='center'> Symptom Generator </p>
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Appointment%20Booking.png" width = "600" height = "400"/></p>
-<p align='center'> **Appointment Booking** </p>
+<p align='center'> Appointment Booking </p>
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Resources.png" width = "600" height = "400"/></p>
-<p align='center'> **Resources** </p>
+<p align='center'> Resources </p>
 
-## Video Link
