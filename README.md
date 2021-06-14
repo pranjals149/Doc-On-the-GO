@@ -17,6 +17,6 @@ Our inspiration for this project was to help people during the Coronavirus pande
 
 ## Problem statements
  
-## Screenshots
+## Working Screenshot
 <p align='center'><img src = "DocOnTheGo.gif" /></p>
 
