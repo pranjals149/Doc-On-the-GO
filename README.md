@@ -18,5 +18,5 @@ Our inspiration for this project was to help people during the Coronavirus pande
 ## Problem statements
  
 ## Screenshots
-<p align='center'><img src = "DocOnTheGo.gif" width = "400" height = "400"/></p>
+<p align='center'><img src = "DocOnTheGo.gif" /></p>
 
