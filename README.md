@@ -2,8 +2,8 @@
 
 ## Links
 
-1. Deployed Link - [Click here](https://doconthego.netlify.app/)
-2. Video Link - [Click here](https://youtu.be/gShsoToKF54)
+1. <h3>Deployed Link</h3> - [Click here](https://doconthego.netlify.app/)
+2. <h3>Video Link</h3> - [Click here](https://youtu.be/gShsoToKF54)
 
 ## Inspiration
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Inspiration.jpeg" width = "600" height = "400"/></p>
