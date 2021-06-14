@@ -20,6 +20,6 @@ Our inspiration for this project was to help people during the Coronavirus pande
 
 ## Team Members
 
-1. Pranjal Srivastava - [LinkedIn](linkedin.com/in/pranjal-srivastava-801a9a152) [GitHub](https://github.com/pranjals149)
-2. Ramankur Goswami - [LinkedIn](linkedin.com/in/ramankurgoswami) [GitHub](https://github.com/RamankurGoswami)
-3. Shivam Purohit - [LinkedIn](linkedin.com/in/shivam-purohit-0930381aa) [GitHub](https://github.com/ShivamPurohit)
+1. Pranjal Srivastava - [LinkedIn](https://www.linkedin.com/in/pranjal-srivastava-801a9a152/) [GitHub](https://github.com/pranjals149)
+2. Ramankur Goswami - [LinkedIn](https://www.linkedin.com/in/ramankurgoswami/) [GitHub](https://github.com/RamankurGoswami)
+3. Shivam Purohit - [LinkedIn](https://www.linkedin.com/in/shivam-purohit-0930381aa/) [GitHub](https://github.com/ShivamPurohit)
