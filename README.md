@@ -3,7 +3,7 @@
 ## Links
 
 1. Deployed Link - [Click here](https://unite-d0291.web.app/) 
-2. Video Link - [Click here](https://youtu.be/gShsoToKF54) 
+2. Video Link - [Click here](https://youtu.be/AN0Fa8dgixs) 
 
 ## Inspiration
 <p align='center'><img src = "https://github.com/pranjals149/Doc-On-the-GO/blob/master/public/Snips/Inspiration.jpeg" width = "600" height = "400"/></p>
